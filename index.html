@@ -30,44 +30,31 @@
   <body>
     <header><div>HEXLink</div></header>
     <main>
-      <h1>Privacy Policy</h1>
-      <p class="date">Effective date: 7 October 2026</p>
-
-      <p>This policy explains how information is handled when you use the HEXLink mobile app. HEXLink lets contributors learn recording requirements, submit selected photos or videos for review and processing, and view the status of their work and rewards. HEXLink is the name of the app, not a separate legal entity. The app is operated by the individual developer identified as its seller in the App Store; “we” refers to that developer.</p>
-
-      <h2>1. Information we collect</h2>
-      <p><strong>Account information.</strong> When you register, we receive your name or username, email address, and authentication information. We also keep your account status and information needed to verify your email, sign you in, and help you recover access.</p>
-      <p><strong>PayNow information.</strong> We receive the Singapore mobile number you enter for PayNow payouts and record your confirmation that we may use it for that purpose. Entering the number does not verify ownership of the number or its PayNow registration. We may keep records of rewards and payments associated with your account.</p>
-      <p><strong>Submissions.</strong> We receive the photos and videos you choose to upload, including any audio in the videos, notes you enter, task and submission identifiers, review decisions, and related timestamps. Media you submit may contain people, voices, places, or other personal information. Please follow the task instructions and avoid including information you are not authorized to share.</p>
-      <p><strong>Technical information.</strong> To prepare, upload, and review media, we process file names, types and sizes; video duration, dimensions, orientation and audio presence; capture source and device platform; and upload status. Our hosting provider may process connection information and service logs needed to deliver and secure the service.</p>
-
-      <h2>2. Camera, microphone, photos, and drafts</h2>
-      <p>HEXLink requests camera and microphone permission when you choose to record, and photo library permission when you choose media from your device. You can manage these permissions in your device settings. Your recording drafts are stored on your device before you submit them. HEXLink uploads media you select when you choose to submit it. Removing the app may remove local drafts, but does not automatically remove submissions already uploaded.</p>
-
-      <h2>3. How we use information</h2>
-      <ul>
-        <li>To create and secure accounts, verify email addresses, and provide account support.</li>
-        <li>To show tasks, receive submissions, review work, and communicate decisions or revision requests.</li>
-        <li>To process submissions and create Processed Products that do not identify any person, and to sell or license those products to business customers. “Processed Products” are results created by editing, transforming, annotating, aggregating, analysing, or otherwise processing submissions. Our <a href="terms.html">Terms</a> describe the licence for this use.</li>
-        <li>To administer contributor rewards and PayNow payouts.</li>
-        <li>To operate, troubleshoot, and protect HEXLink and comply with applicable obligations.</li>
-      </ul>
-      <p>The current HEXLink app does not display third-party advertisements or use a third-party advertising SDK.</p>
-
-      <h2>4. Who can access information</h2>
-      <p>HEXLink receives and reviews submissions. Authorized reviewers and people operating the service may access account details and submissions as needed for their work. We use Supabase to provide authentication, database services, and private media storage.</p>
-      <p>We may provide Processed Products to business customers for their independent use, but only where the products delivered to them do not identify any person or make any person reasonably identifiable, alone or together with other information reasonably available to the customer. We do not provide original submissions or identifiable media to business customers for their independent use. If we introduce additional uses or recipients of personal information, we will update this policy and obtain any permission required before that use or disclosure begins. This policy does not grant permission to use personal information in a video for an unspecified purpose.</p>
-      <p>We may disclose information when required by law or to protect the service and its users. Uploaded submissions are not displayed in a public social feed.</p>
-
-      <h2>5. Retention, deletion, and your choices</h2>
-      <p>Drafts remain on your device until you remove them or uninstall the app. We keep uploaded submissions while needed for review, creation of Processed Products, task fulfillment, and any related dispute; account and payout records are kept while needed to operate the service and meet applicable obligations. We delete or de-identify information when it is no longer needed for those purposes. Processed Products that no longer identify any person may continue to be used or licensed after the original submission or account is deleted.</p>
-      <p>You can manage camera, microphone, and photo permissions in your device settings and choose whether to submit media. In the app, go to Profile &gt; Request account deletion to submit a deletion request. We aim to complete account and associated-data deletion within 30 days and will confirm completion at your registered email address. To request access or correction of your information, or to withdraw consent where applicable, contact us below. We may need to retain limited records required by law or to resolve a payment, dispute, or security issue. Withdrawing consent needed for a feature may prevent us from providing that feature.</p>
-
-      <h2>6. Updates</h2>
-      <p>We may update this policy when our practices change. We will post the revised policy here with a new effective date and provide any additional notice required by law.</p>
-
-      <h2>7. Contact</h2>
-      <p>HEXLink privacy contact: <a href="mailto:hexlink.app@outlook.com">hexlink.app@outlook.com</a></p>
+<h1 id="hexlink-privacy-policy">HEXLink Privacy Policy</h1>
+<p class="date">Effective date: 10 November 2026</p>
+<p>HEXLink lets contributors record everyday interactions, submit videos for review, and track their work and rewards. The individual developer identified as the seller in the App Store operates HEXLink. In this policy, “we” refers to that developer.</p>
+<h2 id="1-information-we-receive">1. Information we receive</h2>
+<p>When you register, we receive your name or username, email address and authentication information. We keep the information needed to verify your email, manage your account and help you recover access. If you enter a Singapore mobile number for PayNow, we record the number and your confirmation that we may use it for payouts. We also keep reward and payment records.</p>
+<p>When you confirm an upload in this iOS version, we receive the processed, silent video described in section 2, your submission notes, and information linking the submission to your account and task. We keep file details such as name, type, size, duration and dimensions, together with upload status, review decisions and timestamps. Our hosting provider may process connection information and service logs to deliver and secure the service.</p>
+<h2 id="2-recording-face-replacement-and-your-choice-to-upload">2. Recording, face replacement and your choice to upload</h2>
+<p>When you record a video or choose one from your device, HEXLink uses a local copy as a draft. You can manage camera, microphone and photo access in your device settings. If the source video includes audio, it remains present in the source copy until that copy is removed.</p>
+<p>Before upload, the app examines video frames on your device to locate faces. It uses face locations, facial landmarks and cropped images of detected faces to place a synthetic face over each face it can process. These operations run on your device. The app uses this information for face replacement and does not create a profile to recognize a person across recordings. The original video, its audio, the facial landmark coordinates and the working face crops are not sent to HEXLink or to an external face-processing service by this upload flow.</p>
+<p>The app creates a silent video for you to preview. If the app detects a face it cannot replace or records a frame-processing error, it blocks upload of that clip. Detection can miss a face. A name badge, a reflection or the setting may also identify someone. Watch the processed video before confirming upload. If someone can still be identified, trim or replace the clip or leave it unsubmitted. Only record and share material you are authorized to contribute.</p>
+<h2 id="3-how-we-use-information">3. How we use information</h2>
+<p>We use account and submission information to provide tasks, review contributions, communicate decisions and revision requests, and administer rewards and payouts. We also use information to operate, troubleshoot and protect the service, respond to requests and meet applicable obligations.</p>
+<p>HEXLink uses privacy-protected materials from approved submissions to train models for deployment on humanoid robots. These models help robots handle objects (manipulation) and move through their environment (locomotion). We also prepare processed videos and annotations for sale or licence to robot manufacturers as described in section 4 and in our <a href="https://hexlink-app.github.io/terms.html">Submission Terms</a>. The current app does not display third-party advertisements or use a third-party advertising SDK.</p>
+<h2 id="4-storage-access-and-sharing">4. Storage, access and sharing</h2>
+<p>The app processes the source video on your device. When you confirm an upload, the processed video goes to HEXLink’s private storage, currently hosted by Supabase. Only authorized HEXLink personnel can view videos awaiting review. Approved videos remain in our private storage. Supabase also provides authentication and database services. We may change storage providers and will update this policy to identify the provider we use.</p>
+<p>After approval, HEXLink further edits the silent, face-replaced footage before supplying edited clips and annotations to robot manufacturers. Manufacturers may use the delivered materials to train their own robotics models. Under our <a href="https://hexlink-app.github.io/terms.html">Submission Terms</a>, we may supply these materials only if no person can reasonably be identified from them, either on their own or together with other information reasonably available to the manufacturer. This condition applies to the whole clip and its annotations, including details such as a visible name badge. We may also disclose information when required by law or to protect the service and its users.</p>
+<h2 id="5-retention-deletion-and-your-choices">5. Retention, deletion and your choices</h2>
+<p><strong>On your device.</strong> The app uses face locations, facial landmarks and cropped face images only while processing video frames. It does not save these data separately. It keeps the draft video, processed video segments and processing progress locally so that you can resume and review your work. You can discard a draft. After a successful submission the app runs a cleanup step to remove its draft copy and processing files. Removing the app also removes its local app data. If you selected a video from your photo library, the library copy remains under your control.</p>
+<p><strong>Uploaded videos.</strong> We delete uploaded videos when we reject a submission or when an upload is abandoned. If we approve your submission, we retain the processed video in HEXLink’s private storage for the purposes described in sections 3 and 4. Approved videos have no scheduled expiry. You can request deletion of an individual video by emailing the address in section 7. We will remove that video from storage under HEXLink’s control, currently hosted by Supabase.</p>
+<p><strong>Products already delivered.</strong> Under our Submission Terms, manufacturers may continue to exercise rights already granted in edited materials that no longer identify anyone, including after we delete your video or account. We retain account and payout records as needed to operate the service and meet applicable obligations.</p>
+<p><strong>Deletion requests.</strong> Go to Profile &gt; Request account deletion in the app. We aim to complete deletion of the account and associated data within 30 days of the request and will confirm completion at your registered email address. Removing the app from your device does not delete an uploaded submission. Contact us to request access or correction, or to withdraw consent where applicable. We may retain limited records required by law or to resolve a payment, dispute or security issue. Withdrawing consent needed for a feature may prevent us from providing that feature.</p>
+<h2 id="6-updates">6. Updates</h2>
+<p>We will post changes here with a new effective date and provide any additional notice or obtain any permission required before new uses or disclosures begin.</p>
+<h2 id="7-contact">7. Contact</h2>
+<p>For privacy questions or requests, email <a href="mailto:hexlink.app@outlook.com"><span>hexlink.app@outlook.com</span></a>.</p>
     </main>
     <footer><div>© HEXLink · Privacy Policy · <a href="terms.html">Terms of Service and Submission Terms</a></div></footer>
   </body>
